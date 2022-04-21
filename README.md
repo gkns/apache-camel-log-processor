@@ -9,11 +9,11 @@ independently of the other records in the text file
 
 Format of each line in the text file:
 ---
-[Date in YYYY-MM-DDThh:mm:ssZ Format][space][Email Address][space][Session Id in GUID format]
+`[Date in YYYY-MM-DDThh:mm:ssZ Format][space][Email Address][space][Session Id in GUID format]`
 
 Eg:
 --
-2020-12-04T11:14:23Z jasdfne.dsdfoe@esdfmsdfail.com 3f30eb2b-a637-4c93-a633-b4567bc374576
+`2020-12-04T11:14:23Z jasdfne.dsdfoe@esdfmsdfail.com 3f30eb2b-a637-4c93-a633-b4567bc374576`
 
 Write an application to parse the text files above and expose an HTTP API to
 serve the data contained in the text files.
